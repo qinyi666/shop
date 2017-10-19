@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "正白色",
+    "image": "Content/image/4.jpg",
+    "state": false,
+    "num": 1,
+    "price": 1000,
+    "color": "white"
+  },
+    {
+      "id": 2,
+      "name": "纯黑色",
+      "image": "Content/image/5.jpg",
+      "state": true,
+      "num": 1,
+      "price": 1200,
+      "color": "black"
+    },
+    {
+      "id": 3,
+      "name": "小迷你",
+      "image": "Content/image/1.jpg",
+      "state": false,
+      "num": 1,
+      "price": 800,
+      "color": "white"
+    }
+]

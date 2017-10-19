@@ -1,0 +1,160 @@
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    background: #f4f4f4;
+}
+
+.header {
+    height: 0.45rem;
+    border-top: 1px solid #ccc;
+    background-color: red;
+}
+.header > h4 {
+    text-align: center;
+    line-height: 0.45rem;
+    font-size: 0.15rem;
+}
+.header > .return {
+    position: absolute;
+    top: 0.12rem;
+    left: 0.15rem;
+    font-size: 0.15rem;
+}
+.content {
+    -webkit-flex: 1;
+    position: relative;
+}
+.content{
+    width: 100%;
+    -webkit-flex: 1;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+.content .wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.items {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.items .chose {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+}
+.items .pic img {
+    width: 100px;
+    height: 100px;
+}
+.items .con {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;
+    flex: 1;
+}
+.items .con h1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items .con h1 .bicname {
+    font-size: 16px;
+}
+
+.items .con h1 .del {
+    display: inline-block;
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+    font-size: .15rem;
+}
+.items .con h2{
+    font-size: .15rem;
+}
+.items .con h3 {
+    display: flex;
+    justify-content: space-between;
+}
+.items .con h3 .price {
+    color: red;
+}
+.items .con h3 p .add, .items .con h3 p .reduce, .items .con h3 p .count {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    font-size: .15rem;
+}
+
+.all {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.allon,.items .on {
+    background: red;
+}
+.cho {
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-top: 1px solid #ccc;
+
+}
+.cho .money {
+    color: red;
+}
+.cho h1 ,.cho h2{
+    font-size: .15rem;
+}
+.cho h3 {
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    font-size: .15rem;
+}
+footer {
+    height: .45rem;
+    background: #FAFAFA;
+    border-top: 1px solid #ccc;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    text-align: center;
+    -webkit-flex: 1
+}
+
+
